@@ -11,8 +11,8 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 <img width="931" height="591" alt="Data Warehouse drawio" src="https://github.com/user-attachments/assets/d8af5c2a-6430-470b-84c9-7dd611bd43dc" />
 
 
-1-**Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2-**Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+1-**Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.<br>
+2-**Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.<br>
 3-**Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
@@ -37,7 +37,7 @@ Documentation: Provide clear documentation of the data model to support both bus
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
 
-**Customer Behavior**
-**Product Performance**
-**Sales Trends**
+**Customer Behavior** <br>
+**Product Performance** <br>
+**Sales Trends**<br>
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
